@@ -1,0 +1,569 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #f0f0f0;
+}
+
+
+/*.wpapper {
+	max-width: 1200px;
+	margin-right: auto;
+  margin-left: auto;
+  }*/
+
+  .header {
+  	height: 80px;
+  	line-height: 80px;
+  }
+
+  .wrap {
+  	background-color: #fff;
+  }
+
+  /*Шапка.*/
+
+  .logo {
+  	position: relative;
+  	padding-left: 40px;
+  	margin-top: 18px;
+  }
+
+  .logo img {
+  	max-width: 120px;
+  }
+
+  .main-menu {
+  	float: right;
+  	margin-right: 37px;
+  	margin-top: 4px;
+  }
+
+  .main-menu button {
+  	font-family: Comfortaa;
+  	text-align: center;
+  	background-color: #d3e3ef;
+  	border-radius: 10px;
+  	outline: none !important;
+  	border: none;
+  	cursor: pointer;
+  	box-shadow: 1px 1.7px 4.8px 2.2px rgba(0, 0, 0, 0.08);
+  }
+
+  .main-menu img {
+  	padding: 2px 5px;
+  	vertical-align: middle;
+  }
+
+  .main-menu button:hover {
+  	background-color: #27628e;	
+  }
+
+  .menu-item-1, .menu-item-2, .menu-item-3 {
+  	display: inline;
+  	margin-left: 10px;
+  }
+
+  .main-menu a {
+  	text-decoration: none;
+  	font-family: Comfortaa;
+  	text-align: center;
+  }
+
+  .main-menu img {
+  	max-height: 20px;
+  }
+
+
+  /*Слайдер.*/
+
+  .slider {
+  	position: relative;
+  	background-image: url("../img/dikie lyudi.png");	
+  	height: 565px;
+  	background-size: cover;
+  }
+
+  .fks1 {
+  	position: absolute;
+  	right: 5%;
+  	top: 22%;
+  	padding: 10px 10px;
+  	text-transform: uppercase;
+  	letter-spacing: 0.18px;
+  	color: #fff;
+  	font-family: Comfortaa;
+  	font-weight: 400;
+  	font-size: 20px;
+  	background: rgb(1, 1, 1, 0.7);
+  	border-radius: 10px;
+  }
+
+
+
+  .fks2 {
+  	position: absolute;
+  	right: 5%;
+  	top: 30%;
+  	padding: 10px 10px;
+  	text-transform: uppercase;
+  	letter-spacing: 0.18px;
+  	color: #fff;
+  	font-family: Comfortaa;
+  	font-size: 20px;
+  	background: rgb(1, 1, 1, 0.7);
+  	border-radius: 10px;	
+  }
+
+/*.slider img {
+	width: 100%;
+	height: 100%;
+	}*/
+
+
+/*.slider p {
+	top: 330px;
+	left: 1300px;
+	padding: 12px 20px;
+	color: #fefefe;
+	font-family: Comfortaa;
+	font-size: 36px;
+	font-weight: 400;
+	line-height: 60px;
+	text-transform: uppercase;
+	letter-spacing: 0.18px;
+	border-radius: 10px;
+	background-color: #010101;
+	opacity: 0.7;
+	text-align: right;
+}
+*/
+
+/*gamepad*/
+
+.gamepad {
+	background-color: #fff;
+}
+.gamepad img {
+	display: block;
+	margin: auto;
+	padding-top: 15px;
+	padding-bottom: 20px;
+}
+
+.line-1 {
+	color: #fdfdfd;
+	font-family: Jura;
+	font-size: 27px;
+	font-weight: 400;
+	line-height: 24px;
+	text-transform: uppercase;
+	background-color: #272727;
+	text-align: center;
+}
+
+.line-1 p {
+	margin: auto;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+
+/*ICON*/
+
+
+.game-icon {
+	padding-top: 30px;
+	padding-bottom: 30px;
+	background-color: #fff;	
+}
+
+.qq, .start-icon, .end-icon {
+	display: inline;
+	padding-right: 40px;
+}
+
+.start-icon {
+	margin-left: 10%;
+}
+
+
+
+
+.qq img,
+.start-icon img,
+.end-icon img {
+	max-width: 8%;
+}
+
+/*Анонсы.*/
+
+.announcement {
+	background-color: #d3e3ef;
+}
+
+.poloska {	
+	padding-top: 40px;
+}
+
+.poloska p {	
+	background-color: #fff;
+	font-family: Comfortaa;
+	font-size: 21px;
+	margin-bottom: -21px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.poloska img{
+	max-height: 60px;
+	vertical-align: middle;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.rupor img {
+	display: block;
+	margin: auto;
+	margin-top: 10px;
+	max-height: 80px;
+}
+
+/*BOX.*/
+
+
+.bgc {
+	background: #d3e3ef;
+}
+
+.box {
+	position: relative;
+}
+
+.line-2 {
+	position: absolute;
+	top: 31px;
+	width: 460px;
+	height: 50px;
+	background-color: #fb8684;
+}
+
+.box-first {
+	width: 460px;
+	height: 460px;
+	background-color: #fff;
+	margin-left: 50px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	border-radius: 10px;
+}
+
+.box-second {
+	width: 460px;
+	height: 460px;
+	background-color: #fff;
+	margin-right: 50px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	border-radius: 10px;
+}
+
+
+
+/*Анимэ.*/
+
+.line-3 {
+	background-color: #d3e3ef;
+}
+
+.line-3 p {
+	font-family: Comfortaa;
+	font-size: 21px;
+	text-transform: uppercase;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.line-3 img {
+	max-height: 30px;
+	vertical-align: middle;
+	margin-right: 10px;
+}
+.box-text-img {
+	position: relative;
+}
+
+.box-text {
+	background-color: #d3e3ef;
+	width: 460px;
+	height: 300px;
+	margin-left: 50px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	border-radius: 10px;
+}
+
+.line-2 p {
+	position: absolute;
+	padding-left: 40px;
+	padding-right: 50px;
+	font-family: Comfortaa;
+	left: 20px;
+
+}
+
+.box-text-about {
+	position: absolute;
+	bottom: -8px;
+	padding-left: 50px;
+	padding-right: 50px;
+	font-family: Roboto;
+	
+}
+
+.box-img {
+	margin-top: 50px;
+	margin-left: 21px;
+	border-radius: 10px;
+}
+
+.box-img img {
+	width: 460px;
+	max-height: 300px;
+	
+}
+
+
+/*our team*/
+
+.our-team img{
+	position: relative;
+	margin:0;
+	left: 42%;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	opacity: 0.35;
+}
+
+.our-team p {
+	position: absolute;
+	top: 49px;
+	left: 40.5%;
+	font-size: 21px;
+	font-family: Comfortaa;
+	text-transform: uppercase;
+}
+
+/*BOSS*/
+
+.image-boss {
+	position: relative;
+}
+
+.image-boss img {
+	position: absolute;
+	bottom: -167px;
+	left: 20px;
+	width: 250px;
+	height: 250px;
+}
+
+/*.line-4 {
+	position: relative;
+		width: 100%;
+	height: 300px;
+	}*/
+
+	.boss-speak p{
+		padding-right: 20px;
+		font-family: Roboto;
+		font-size: 19px;
+		text-align: center;
+		font-weight: 300;
+	}
+
+	.wrap1 {
+		background-color: #d8dfe7
+	}
+
+
+	/*MEMBERS*/
+
+	.members {
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.members img {
+		width: 150px;
+		height: 150px;
+	}
+
+	.members h4 {
+		font-family: Comfortaa;
+		text-transform: uppercase;
+		font-size: 12px;
+		/*text-align: center;*/
+	}
+
+	.members p {
+		font-family: Roboto;
+		font-weight: 400;
+		font-size: 11px;
+		/*text-align: center;*/
+		text-transform: uppercase;
+	}
+
+	.member-5 {
+
+		text-align: center;
+	}
+
+	.member-1,.member-2,.member-3,.member-4,.member-5 {
+		padding-top: 120px;
+		padding-bottom: 80px;
+		width: 165px;
+		text-align: center;
+	}
+
+
+	/*feedback*/
+	.feedback {
+		background-image: url("../img/Feedback.png");
+		background-size: cover;
+		height: 560px;
+	}
+
+	.message {
+		background: transparent;
+		color: #fff;
+	}
+
+	input {
+		border-width: 1px;
+		color: #808080;
+	}
+
+	input[type="name"]::-webkit-input-placeholder {
+		color: #fff;
+		padding-left: 10px;
+		font-family: Jura;
+	}
+
+	input[type="email"]::-webkit-input-placeholder {
+		color: #fff;
+		padding-left: 10px;
+		font-family: Jura;
+	}
+
+	input[type="tel"]::-webkit-input-placeholder {
+		color: #fff;
+		padding-left: 10px;
+		font-family: Jura;
+	}
+
+	textarea::-webkit-input-placeholder {
+		color: #fff;
+		padding-left: 10px;
+		padding-top: 10px;
+		font-family: Jura;
+	}
+
+	textarea:-moz-placeholder { /* Firefox 18- */
+		color: #fff;  
+	}
+
+	textarea::-moz-placeholder {  /* Firefox 19+ */
+		color: #fff;  
+	}
+
+	textarea:-ms-input-placeholder {
+		color: #fff;  
+	}
+	
+.feedback {
+	position: relative;
+	padding-top: 30px;
+}
+
+input#name.message {
+	position: absolute;
+	top: 25%;
+	left: 10%;
+	height: 30px;
+	width: 20%;
+}
+
+input#email.message {
+	position: absolute;
+	top: 25%;
+	left: 35%;
+	height: 30px;
+	width: 20%;
+}
+
+input#tel.message {
+	position: absolute;
+	top: 25%;
+	left: 60%;
+	height: 30px;
+	width: 20%;
+}
+
+textarea#mes.message {
+	position: absolute;
+	top: 45%;
+	left: 10%;
+	height: 80px;
+	width: 70%;
+}
+
+button.button {
+	position: absolute;
+	top: 65%;
+	left: 40%;
+	height: 40px;
+	width: 150px;
+	background-color: #20a0d4;
+	border: none;
+	color: #fff;
+	font-family: Roboto;
+	text-transform: uppercase;
+	
+}
+
+
+	/*footer*/
+
+	.footer-wrap {
+		background-color: #d8dfe7;
+	}
+	.footer-icon {
+		text-align: right;
+		padding-top: 30px;
+		padding-right: 30px;
+	}
+
+	.footer-icon a {
+		padding-right: 15px;
+	}
+
+	.footer-icon img {	
+		max-width: 30px;
+		max-height: 30px;
+	}
+
+	.line-footer p {
+		font-family: Comfortaa;
+		font-size: 12px;
+		font-weight: 40px;
+		background-color: #fff;
+		text-align: right;
+		padding-bottom: 10px;
+		padding-top: 10px;
+		padding-right: 30px;
+		margin-bottom: 30px;
+		text-transform: uppercase;
+	}
