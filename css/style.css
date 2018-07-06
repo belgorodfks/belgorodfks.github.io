@@ -358,14 +358,12 @@ body {
 
 /*BOSS*/
 
-.image-boss {
-	position: relative;
-}
+
 
 .image-boss img {
 	position: absolute;
-	bottom: -167px;
-	left: 20px;
+	bottom: -25px;
+	left: 40px;
 	width: 250px;
 	height: 250px;
 }
@@ -376,17 +374,34 @@ body {
 	height: 300px;
 	}*/
 
-	.boss-speak p{
+/*	.boss-speak p{
 		padding-right: 20px;
 		font-family: Roboto;
 		font-size: 19px;
 		text-align: center;
 		font-weight: 300;
+	}*/
+
+.boss-speak {
+		position: relative;
+    background-color: #d8dfe7;
+    height: 200px;
+    font-family: Roboto;
+    font-weight: 300;
+		font-size: 21px;
+		text-align: center;
+		padding-top: 30px;
+    
+}
+
+.boss-speak p{
+	position: absolute;
+	left: 25%;
 	}
 
-	.wrap1 {
+	/*.wrap1 {
 		background-color: #d8dfe7
-	}
+	}*/
 
 
 	/*MEMBERS*/
