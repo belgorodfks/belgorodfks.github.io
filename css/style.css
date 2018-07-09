@@ -176,7 +176,7 @@ body {
 	padding-bottom: 30px;
 }
 
-.qq, .start-icon, .end-icon {
+.icon, .start-icon, .end-icon {
 	display: inline;
 	padding-right: 40px;
 }
@@ -188,7 +188,7 @@ body {
 
 
 
-.qq img,
+.icon img,
 .start-icon img,
 .end-icon img {
 	max-width: 8%;
@@ -569,7 +569,7 @@ button.button {
 
 
 @media (max-width: 576px) { 
-	.qq, .start-icon {
+	.icon, .start-icon {
 		padding-right: 10px;
 	}
 	.box-first, .box-second, .line-2 {
@@ -594,7 +594,7 @@ button.button {
 
 
 @media (max-width: 768px) {
-	.qq, .start-icon, .end-icon {
+	.icon, .start-icon, .end-icon {
 		padding-right: 20px;
 	}
 	.box-text, .box-img, .box-img1 {
@@ -618,7 +618,7 @@ button.button {
 
 
 @media (max-width: 992px) {
-	.qq, .start-icon, .end-icon {
+	.icon, .start-icon, .end-icon {
 		padding-right: 30px;
 	}
 
@@ -657,7 +657,7 @@ button.button {
 
 
 @media (max-width: 1200px) {
-	.qq, .start-icon, .end-icon {
+	.icon, .start-icon, .end-icon {
 		padding-right: 30px;
 	}
 	.box-first, .box-second {
@@ -668,17 +668,17 @@ button.button {
 		margin-top: 50px;
 	}
 
-	/*.box-second {
+	.box-second {
 		margin-top: 50px;
 		margin-left: -10px;
-	}*/
+	}
 	.box-text, .box-img, .box-img1 {
 		margin: 20px auto;
 	}
 
-	/*.box-img, .box-img1 {
+	.box-img, .box-img1 {
 	margin-left: -10px;
-	}*/
+	}
 
 	.box-img1 {
 		margin-top: 40px;
